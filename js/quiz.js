@@ -97,7 +97,7 @@ $('#next-a, #next-b, #next-c, #next-d').on('click', function() {
 		ansResult = ans.toString();
     console.log(ansResult);
     switch(ansResult) {
-      case "x1a":
+      case "x,1,a":
         console.log("ข้าวมันไก่ พรีเมี่ยม");
         $(".result-name").text("ข้าวหอมมะลิเก่า 100% ตรา มะลิฟ้า");
         $(".product-img-object.quiz-img").replaceWith('<img class="product-img-object quiz-img" src="https://uploads-ssl.webflow.com/629732c7c0e1401011449adc/6297336283614d863c4c0db5_MockUpPic1%402x.png"></img>');
