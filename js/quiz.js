@@ -211,7 +211,7 @@ $('#next-a, #next-b, #next-c, #next-d').on('click', function() {
   },7000); 
 });
 
-//Reset and Prev button
+//Reset, Restart and Prev button
 $('.reset-btn').on('click', function(){
   $('.tab-link-q_one').click(); 
   $('.quiz').fadeToggle( "fast", "linear" );
@@ -221,6 +221,16 @@ $('.reset-btn').on('click', function(){
   $('.loading-frame').fadeIn( 0 );
   $('.result-wrap').addClass('load');
 });
+
+$('.restart-btn').on('click', function(){
+  $('.tab-link-q_one').click(); 
+  $('.w-form-formradioinput').removeClass('w--redirected-checked');
+  $('.radio-button-field').removeClass('not-check');
+  $('.progress-bar-indicator').css('width', '5%');
+  $('.loading-frame').fadeIn( 0 );
+  $('.result-wrap').addClass('load');
+});
+
 
 $('#prev-2, #prev-3').on('click', function() {
 	$('.tab-link-q_one').click(); 
