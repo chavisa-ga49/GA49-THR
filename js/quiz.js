@@ -119,9 +119,17 @@ $('#next-a, #next-b, #next-c, #next-d').on('click', function() {
         break;
       case "x,1,d":
         console.log("ข้าวมันไก่ สุขภาพ");
+        $(".result-name").text("ข้าวหอมสุรินทร์ ตรา ดอกบัว รุ่นลายไทย");
+        $(".product-img-object.quiz-img").replaceWith('<img class="product-img-object quiz-img" src="https://uploads-ssl.webflow.com/629732c7c0e1401011449adc/629738026423ddf71a1f9492_MockUpPic2%402x.png"></img>');
+        $(".result-description").text("ข้าวหอมสุรินทร์ ผ่านการคัดสรรคุณภาพอย่างใส่ใจ เมื่อนำไปหุง ข้าวจะมีความหอมนุ่ม อร่อย น่าทาน และหุงขึ้นหม้อ เหมาะสำหรับผู้บริโภคข้าวหอมที่ราคาย่อมเยาว์และร้านอาหารทั่วไป ");
+        $(".quiz-result-btn").attr('href', 'https://tonghua-staging.webflow.io//products/khaawh-m-4');
         break;
       case "x,2,a":
         console.log("โจ๊ก พรีเมี่ยม");
+        $(".result-name").text("ข้าวหอมสุรินทร์ ตรา ดอกบัว รุ่นลายไทย");
+        $(".product-img-object.quiz-img").replaceWith('<img class="product-img-object quiz-img" src="https://uploads-ssl.webflow.com/629732c7c0e1401011449adc/629738026423ddf71a1f9492_MockUpPic2%402x.png"></img>');
+        $(".result-description").text("ข้าวหอมสุรินทร์ ผ่านการคัดสรรคุณภาพอย่างใส่ใจ เมื่อนำไปหุง ข้าวจะมีความหอมนุ่ม อร่อย น่าทาน และหุงขึ้นหม้อ เหมาะสำหรับผู้บริโภคข้าวหอมที่ราคาย่อมเยาว์และร้านอาหารทั่วไป ");
+        $(".quiz-result-btn").attr('href', 'https://tonghua-staging.webflow.io//products/khaawh-m-4');
         break;
       case "x,2,b":
         console.log("โจ๊ก คุณภาพ+ราคา");
