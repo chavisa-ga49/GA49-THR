@@ -102,20 +102,20 @@ $('#next-a, #next-b, #next-c, #next-d').on('click', function() {
         $(".result-name").text("ข้าวหอมมะลิเก่า 100% ตรา มะลิฟ้า");
         $(".product-img-object.quiz-img").replaceWith('<img class="product-img-object quiz-img" src="https://uploads-ssl.webflow.com/629732c7c0e1401011449adc/6297336283614d863c4c0db5_MockUpPic1%402x.png"></img>');
         $(".result-description").text("ข้าวหอมมะลิ 100% เกรดพรี่เมี่ยม เมื่อนำมาทำข้าวมันไก่ จะได้ความอร่อย นุ่มละมุนกำลังดี เม็ดข้าวขาวสวย");
-        $(".quiz-result-btn").attr('href', '/products/khaawsukhphaaph-3');        break;
+        $(".quiz-result-btn").attr('href', 'https://tonghua-staging.webflow.io//products/khaawsukhphaaph-3');        break;
       case "x,1,b":
         console.log("ข้าวมันไก่ คุณภาพ+ราคา");
         $(".result-name").text("ข้าวหอมมะลิ 100% ตรา ดอกดาวเรืองส้ม");
         $(".product-img-object.quiz-img").replaceWith('<img class="product-img-object quiz-img" src="https://uploads-ssl.webflow.com/629732c7c0e1401011449adc/6297387a32daee0d43a45226_MockUpPic3%402x-p-1080.png"></img>');
         $(".result-description").text("ข้าวหอมมะลิเก่า 100% เมื่อนำไปหุงทำข้าวมันไก่จะได้เม็ดข้าวสวยที่มีความเหนียวนุ่มลงตัวและมีกลิ่นหอมตามธรรมชาติ");
-        $(".quiz-result-btn").attr('href', '/products/khaawkhaaw-4');
+        $(".quiz-result-btn").attr('href', 'https://tonghua-staging.webflow.io//products/khaawkhaaw-4');
         break;
       case "x,1,c":
         console.log("ข้าวมันไก่ ประหยัด");
         $(".result-name").text("ข้าวหอมสุรินทร์ ตรา ดอกบัว รุ่นลายไทย");
         $(".product-img-object.quiz-img").replaceWith('<img class="product-img-object quiz-img" src="https://uploads-ssl.webflow.com/629732c7c0e1401011449adc/629738026423ddf71a1f9492_MockUpPic2%402x.png"></img>');
         $(".result-description").text("ข้าวหอมสุรินทร์ ผ่านการคัดสรรคุณภาพอย่างใส่ใจ เมื่อนำไปหุง ข้าวจะมีความหอมนุ่ม อร่อย น่าทาน และหุงขึ้นหม้อ เหมาะสำหรับผู้บริโภคข้าวหอมที่ราคาย่อมเยาว์และร้านอาหารทั่วไป ");
-        $(".quiz-result-btn").attr('href', '/products/khaawh-m-4');
+        $(".quiz-result-btn").attr('href', 'https://tonghua-staging.webflow.io//products/khaawh-m-4');
         break;
       case "x,1,d":
         console.log("ข้าวมันไก่ สุขภาพ");
