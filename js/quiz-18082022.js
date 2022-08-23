@@ -93,7 +93,7 @@ $('#next-a, #next-b, #next-c, #next-d').on('click', function() {
 	setTimeout(function(){
     $('.tab-link-result').click();
     $('.progress-bar-indicator').css('width', '100%');
-    $('.loading-frame').delay( 6000 ).fadeOut( 400 );
+    $('.loading-frame').delay( 4000 ).fadeOut( 400 );
 		ansResult = ans.toString();
     console.log(ansResult);
     switch(ansResult) {
@@ -325,7 +325,7 @@ $('#next-a, #next-b, #next-c, #next-d').on('click', function() {
 	},550); 
   setTimeout(function(){
   	$('.result-wrap').removeClass('load');
-  },7000); 
+  },5000); 
 });
 
 //Reset, Restart and Prev button
