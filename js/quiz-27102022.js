@@ -197,7 +197,7 @@ $('#next-a, #next-b, #next-c, #next-d').on('click', function() {
         break;
       case "x,4,c":
         console.log("ข้าวหมูแดง ประหยัด");
-        $(".result-name").text("ข้าวขาวชัยนาท 100% ตราดอกบัวบาน");
+        $(".result-name").text("ข้าวขาวชัยนาท 100% ตรา ดอกบัวบาน");
         $(".product-img-object.quiz-img").replaceWith('<img class="product-img-object quiz-img" src="https://uploads-ssl.webflow.com/629732c7c0e1401011449adc/63589c9081ac6fa53fab3fa0_WhiteChaiNat.webp"></img>');
         $(".result-description").text("ข้าวขาวชัยนาท หุงขึ้นหม้อ เม็ดสวย ร่วน ไม่เหนียวติดกัน เหมาะสำหรับร้านข้าวนึ่งอาหารตามสั่ง หรือผู้ที่ชอบบริโภคข้าวที่หุงขึ้นหม้อ คุ้มค่า ราคาประหยัด");
         $(".quiz-result-btn").attr('href', '/products/blt-wht-chainat100');
@@ -246,14 +246,14 @@ $('#next-a, #next-b, #next-c, #next-d').on('click', function() {
         break;
       case "y,2,b":
         console.log("ร่วนๆ คุณภาพ+ราคา");
-        $(".result-name").text("ข้าวขาวตาแห้ง 100% ตราดอกบัว");
+        $(".result-name").text("ข้าวขาวตาแห้ง 100% ตรา ดอกบัว");
         $(".product-img-object.quiz-img").replaceWith('<img class="product-img-object quiz-img" src="https://uploads-ssl.webflow.com/629732c7c0e1401011449adc/63589ca381ac6f78e6ab3fe8_BuaDang.webp"></img>');
         $(".result-description").text("ข้าวขาวตาแห้ง เป็นข้าวขาวพันธุ์ดีจากแหล่งเพาะปลูกในเขตภาคตะวันออกเฉียงเหนือโดยเฉพาะจังหวัดนครราชสีมา เป็นข้าวนาปี คือ ปลูกได้เพียงปีละครั้งเท่านั้น มีคุณลักษณะ ขาว หุงขึ้นหม้อ เม็ดร่วน แต่ไม่แข็งกระด้าง เหมาะสำหรับผู้ที่ชอบบริโภค ข้าวที่หุงขึ้นหม้อ คุ้มค่า ราคาประหยัด เหมาะสำหรับร้านอาหารทั่วไปและร้านขายข้าวนึ่ง");
         $(".quiz-result-btn").attr('href', '/products/lts-wht-taheang100');
         break;
       case "y,2,c":
         console.log("ร่วนๆ ประหยัด");
-        $(".result-name").text("ข้าวขาวเสาไห้ ตราดอกบัว รุ่นลายไทย");
+        $(".result-name").text("ข้าวขาวเสาไห้ ตรา ดอกบัว รุ่นลายไทย");
         $(".product-img-object.quiz-img").replaceWith('<img class="product-img-object quiz-img" src="https://uploads-ssl.webflow.com/629732c7c0e1401011449adc/63589c67db103e6591f314fb_ThaiWhiteRice.webp"></img>');
         $(".result-description").text("ข้าวขาวเสาไห้ เป็นข้าวขาวพันธุ์เสาไห้ ที่ได้รับการคัดสรรคุณภาพเป็นพิเศษ มีคุณลักษณะ หุงขึ้นหม้อ เมล็ดสวย ร่วน ไม่เหนียวติดกัน เหมาะสำหรับผู้ที่ชอบบริโภค ข้าวที่หุงขึ้นหม้อ คุ้มค่า ราคาประหยัด");
         $(".quiz-result-btn").attr('href', '/products/khaawth-nmali-traad-kbawbaan');
