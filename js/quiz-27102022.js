@@ -176,7 +176,7 @@ $('#next-a, #next-b, #next-c, #next-d').on('click', function() {
         break;
       case "x,3,d":
         console.log("ข้าวต้ม สุขภาพ");
-        $(".result-name").text("ข้าวกล้องหอมมะลิ 100% ตราดอกบัวบาน");
+        $(".result-name").text("ข้าวกล้องหอมมะลิ 100% ตรา ดอกบัวบาน");
         $(".product-img-object.quiz-img").replaceWith('<img class="product-img-object quiz-img" src="https://uploads-ssl.webflow.com/629700b0455924afb7acade3/6358e7253ea08a7dca457d58_placeholder.png"></img>');
         $(".result-description").text("ข้าวกล้องหอมมะลิ เป็นข้าวที่อุดมไปด้วยวิตามิน B1, B2 แคลเซียม และธาตุเหล็ก รวมทั้งมีเส้นใยอาหารมากให้คุณค่าทางโภชนาการสูง มีสารต่อต้านอนุมูลอิสระ เหมาะสำหรับคนที่รักสุขภาพ");
         $(".quiz-result-btn").attr('href', '/products/blt-hty-brownjamine100');
