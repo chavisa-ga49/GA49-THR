@@ -121,7 +121,7 @@ $('#next-a, #next-b, #next-c, #next-d').on('click', function() {
       case "x,1,d":
         console.log("ข้าวมันไก่ สุขภาพ");
         $(".result-name").text("ข้าวหอมมันปู ตรา ดอกบัวบาน");
-        $(".product-img-object.quiz-img").replaceWith('<img class="product-img-object quiz-img" src="https://uploads-ssl.webflow.com/629732c7c0e1401011449adc/632a82abe4ce4349dbffffdb_62cbecea65c529dd36ea9661_alternative-p-img2%25402x.png"></img>');
+        $(".product-img-object.quiz-img").replaceWith('<img class="product-img-object quiz-img" src="https://uploads-ssl.webflow.com/629732c7c0e1401011449adc/63d8c29e808af483432d0be2_BLT_HT-Munpoo-p-800.png"></img>');
         $(".result-description").text("ข้าวหอมมันปู เป็นกล้องหอมมะลิแดงผสมกับข้าวหอมมะลิ100% เป็นข้าวที่อุดมไปด้วยวิตามิน B1, B2 แคลเซียม และธาตุเหล็ก รวมทั้งมีเส้นใยอาหารมากให้คุณค่าทางโภชนาการสูง มีสารต่อต้านอนุมูลอิสระ เหมาะสำหรับคนที่รักสุขภาพ เมื่อหุงสุกจะมีสีสันสวยงามน่ารับประทาน เมื่อทานข้าวจะสัมผัสถึงเนื้อข้าวทั้งสองชนิดที่ผสมกันอย่างลงตัว");
         $(".quiz-result-btn").attr('href', '/products/blt-hty-hommunpu');
         break;
@@ -149,7 +149,7 @@ $('#next-a, #next-b, #next-c, #next-d').on('click', function() {
       case "x,2,d":
         console.log("โจ๊ก สุขภาพ");
         $(".result-name").text("ข้าวกล้องหอมมะลิแดง 100% ตรา ดอกบัวบาน");
-        $(".product-img-object.quiz-img").replaceWith('<img class="product-img-object quiz-img" src="https://uploads-ssl.webflow.com/629700b0455924afb7acade3/6358e7253ea08a7dca457d58_placeholder.png"></img>');
+        $(".product-img-object.quiz-img").replaceWith('<img class="product-img-object quiz-img" src="https://uploads-ssl.webflow.com/629732c7c0e1401011449adc/63d8c2cdce3d181af03a0166_BLT_JHT-Red-p-800.png"></img>');
         $(".result-description").text("ข้าวกล้องหอมมะลิแดง เป็นข้าวที่อุดมไปด้วยวิตามิน B1, B2 แคลเซียม และธาตุเหล็ก รวมทั้งมีเส้นใยอาหารมากให้คุณค่าทางโภชนาการสูง มีสารต่อต้านอนุมูลอิสระ เหมาะสำหรับ คนที่รักสุขภาพ");
         $(".quiz-result-btn").attr('href', '/products/blt-hty-red100');
         break;
@@ -177,7 +177,7 @@ $('#next-a, #next-b, #next-c, #next-d').on('click', function() {
       case "x,3,d":
         console.log("ข้าวต้ม สุขภาพ");
         $(".result-name").text("ข้าวกล้องหอมมะลิ 100% ตรา ดอกบัวบาน");
-        $(".product-img-object.quiz-img").replaceWith('<img class="product-img-object quiz-img" src="https://uploads-ssl.webflow.com/629700b0455924afb7acade3/6358e7253ea08a7dca457d58_placeholder.png"></img>');
+        $(".product-img-object.quiz-img").replaceWith('<img class="product-img-object quiz-img" src="https://uploads-ssl.webflow.com/629732c7c0e1401011449adc/63d8c2b3ce3d186e283a0105_BLT_HT-Brown-p-800.png"></img>');
         $(".result-description").text("ข้าวกล้องหอมมะลิ เป็นข้าวที่อุดมไปด้วยวิตามิน B1, B2 แคลเซียม และธาตุเหล็ก รวมทั้งมีเส้นใยอาหารมากให้คุณค่าทางโภชนาการสูง มีสารต่อต้านอนุมูลอิสระ เหมาะสำหรับคนที่รักสุขภาพ");
         $(".quiz-result-btn").attr('href', '/products/blt-hty-brownjamine100');
         break;
@@ -191,7 +191,7 @@ $('#next-a, #next-b, #next-c, #next-d').on('click', function() {
       case "x,4,b":
         console.log("ข้าวหมูแดง คุณภาพ+ราคา");
         $(".result-name").text("ข้าวขาวตาแห้ง 100% ตรา ดอกบัว รุ่นลายไทย");
-        $(".product-img-object.quiz-img").replaceWith('<img class="product-img-object quiz-img" src=https://uploads-ssl.webflow.com/629732c7c0e1401011449adc/63589cceb3c62b14dacc54bb_White_TaHang.webp"></img>');
+        $(".product-img-object.quiz-img").replaceWith('<img class="product-img-object quiz-img" src="https://uploads-ssl.webflow.com/629732c7c0e1401011449adc/63589cceb3c62b14dacc54bb_White_TaHang.webp"></img>');
         $(".result-description").text("ข้าวขาวตาแห้ง เป็นข้าวนาปี ปลูกได้เพียงปีละครั้งเท่านั้น มีคุณลักษณะ ขาว หุงขึ้นหม้อ เม็ดร่วน แต่ไม่แข็งกระด้าง เหมาะสำหรับผู้ที่ชอบบริโภค ข้าวที่หุงขึ้นหม้อ คุ้มค่า ราคาประหยัด");
         $(".quiz-result-btn").attr('href', '/products/lth-wht-taheang100');
         break;
@@ -205,7 +205,7 @@ $('#next-a, #next-b, #next-c, #next-d').on('click', function() {
       case "x,4,d":
         console.log("ข้าวหมูแดง สุขภาพ");
         $(".result-name").text("ข้าวไรซ์เบอร์รี่ ตรา ดอกบัว");
-        $(".product-img-object.quiz-img").replaceWith('<img class="product-img-object quiz-img" src="https://uploads-ssl.webflow.com/629700b0455924afb7acade3/6358e7253ea08a7dca457d58_placeholder.png"></img>');
+        $(".product-img-object.quiz-img").replaceWith('<img class="product-img-object quiz-img" src="https://uploads-ssl.webflow.com/629732c7c0e1401011449adc/63730c127746cc1b86b6941f_LTS_HT-riceberry-p-2000.webp"></img>');
         $(".result-description").text("ข้าวไรซ์เบอร์รี่ มีสารต้านอนุมูลอิสระ ลดอัตราเสี่ยงของโรคที่เกี่ยวกับหลอดเลือดสมอง และหัวใจ มีโอเมก้า 3 ที่ช่วยในการทำงานของระบบประสาท สมองและตับ หากทานเป็นประจำจะลดระดับน้ำตาลในเลือด จึงช่วยลดความเสี่ยงในการเป็นโรคเบาหวาน พร้อมทั้งมีกากใยอาหาร ที่เป็นประโยชน์ต่อระบบการขับถ่าย เหมาะสำหรับคนที่รักสุขภาพ");
         $(".quiz-result-btn").attr('href', '/products/lts-hty-riceberry');
         break;
@@ -219,21 +219,21 @@ $('#next-a, #next-b, #next-c, #next-d').on('click', function() {
       case "y,5,b":
         console.log("หอมนุ่ม คุณภาพ+ราคา");
         $(".result-name").text("ข้าวหอมสุรินทร์ ตรา ดอกบัว รุ่นลายไทย");
-        $(".product-img-object.quiz-img").replaceWith('<img class="product-img-object quiz-img" src="https://uploads-ssl.webflow.com/629732c7c0e1401011449adc/6358aa1b0f798363d50da770_HomSurin.webp"></img>');
+        $(".product-img-object.quiz-img").replaceWith('<img class="product-img-object quiz-img" src="https://uploads-ssl.webflow.com/629732c7c0e1401011449adc/63d8d20d7de2b7bdcfd2ed72_HomSurin.png"></img>');
         $(".result-description").text("ข้าวหอมสุรินทร์ ผ่านการคัดสรรคุณภาพอย่างใส่ใจ เมื่อนำไปหุงเป็นข้าวสวยจะมีความนุ่ม อร่อย น่าทาน เหมาะสำหรับผู้บริโภคข้าวหอมที่ราคาย่อมเยาว์และร้านอาหารทั่วไป");
         $(".quiz-result-btn").attr('href', '/products/lth-aro-surin');
         break;
       case "y,5,c":
         console.log("หอมนุ่ม ประหยัด");
         $(".result-name").text("ข้าวหอมคัดพิเศษ ตรา ดอกดาวเรืองเขียว");
-        $(".product-img-object.quiz-img").replaceWith('<img class="product-img-object quiz-img" src="https://uploads-ssl.webflow.com/629700b0455924afb7acade3/6358e7253ea08a7dca457d58_placeholder.png"></img>');
+        $(".product-img-object.quiz-img").replaceWith('<img class="product-img-object quiz-img" src="https://uploads-ssl.webflow.com/629732c7c0e1401011449adc/63c90cfadc0c34a86796b06e_CDG_AR.png"></img>');
         $(".result-description").text("ข้าวหอมคัดพิเศษ ผ่านการคัดสรรพิเศษ เมื่อนำไปหุงจะได้เมล็ดข้าวสวยที่มีความหอมนุ่ม ราคาประหยัด เหมาะสำหรับผู้บริโภคข้าวหอมที่ต้องการราคาประหยัด หรือร้านข้าวแกงอาหารตามสั่ง");
         $(".quiz-result-btn").attr('href', '/products/cdg-aro-special');
         break;
       case "y,5,d":
         console.log("หอมนุ่ม สุขภาพ");
         $(".result-name").text("ข้าวกล้องมะลิแดง 100% ตรา ดอกบัว");
-        $(".product-img-object.quiz-img").replaceWith('<img class="product-img-object quiz-img" src="https://uploads-ssl.webflow.com/629700b0455924afb7acade3/6358e7253ea08a7dca457d58_placeholder.png"></img>');
+        $(".product-img-object.quiz-img").replaceWith('<img class="product-img-object quiz-img" src="https://uploads-ssl.webflow.com/629732c7c0e1401011449adc/63d8c2cdce3d181af03a0166_BLT_JHT-Red-p-800.png"></img>');
         $(".result-description").text("ข้าวกล้องมะลิแดง อุดมธาตุเหล็กและทองแดงที่ช่วยบำรุงเลือด เหมาะกับผู้เป็นโลหิตจางและผู้หญิงมีประจำเดือน มีคุณค่าของ วิตามินบี 1 วิตามินบี 2 ช่วยบำรุงสมอง บรรเทาอาการอ่อนเพลีย และมีแคโรทินในข้าวจะแปลงสภาพเป็นวิตามินเอในร่างกาย ช่วยบำรุงสายตา เหมาะสำหรับคนที่รักสุขภาพ");
         $(".quiz-result-btn").attr('href', '/products/lts-hty-hommalired');
         break;
@@ -261,14 +261,14 @@ $('#next-a, #next-b, #next-c, #next-d').on('click', function() {
       case "y,6,d":
         console.log("ร่วนๆ สุขภาพ");
         $(".result-name").text("ข้าวหอมมันปู ตรา ดอกบัวบาน");
-        $(".product-img-object.quiz-img").replaceWith('<img class="product-img-object quiz-img" src="https://uploads-ssl.webflow.com/629700b0455924afb7acade3/6358e7253ea08a7dca457d58_placeholder.png"></img>');
+        $(".product-img-object.quiz-img").replaceWith('<img class="product-img-object quiz-img" src="https://uploads-ssl.webflow.com/629732c7c0e1401011449adc/63d8c29e808af483432d0be2_BLT_HT-Munpoo-p-800.png"></img>');
         $(".result-description").text("ข้าวหอมมันปู เป็นกล้องหอมมะลิแดงผสมกับข้าวหอมมะลิ100% เป็นข้าวที่อุดมไปด้วยวิตามิน B1, B2 แคลเซียม และธาตุเหล็ก รวมทั้งมีเส้นใยอาหารมากให้คุณค่าทางโภชนาการสูง มีสารต่อต้านอนุมูลอิสระ เหมาะสำหรับคนที่รักสุขภาพ เมื่อหุงสุกจะมีสีสันสวยงามน่ารับประทาน เมื่อทานข้าวจะสัมผัสถึงเนื้อข้าวทั้งสองชนิดที่ผสมกันอย่างลงตัว");
         $(".quiz-result-btn").attr('href', '/products/blt-hty-hommunpu');
         break;
       case "y,7,a":
         console.log("เม็ดสวย พรีเมี่ยม");
         $(".result-name").text("ข้าวหอมมะลิเก่า 100% ตรา มะลิฟ้า");
-        $(".product-img-object.quiz-img").replaceWith('<img class="product-img-object quiz-img" src="https://uploads-ssl.webflow.com/629700b0455924afb7acade3/6358e7253ea08a7dca457d58_placeholder.png"></img>');
+        $(".product-img-object.quiz-img").replaceWith('<img class="product-img-object quiz-img" src="https://uploads-ssl.webflow.com/629732c7c0e1401011449adc/637306aff1bceb9dd348605a_BJM_JS100-p-2000.webp"></img>');
         $(".result-description").text("ข้าวหอมมะลิ 100% เกรดพรี่เมี่ยม ผ่านขบวนการคัดเลือกจากแหล่งวัตถุดิบชั้นเลิศ ที่ปลูกได้ปีละครั้งเท่านั้น เมล็ดข้าวสารมีลักษณะเม็ดเรียว ยาว มีกลิ่นหอมตามธรรมชาติ เมื่อนำไปหุง ข้าวจะส่งกลิ่นหอมชวนทาน เมื่อลิ้มลองจะได้ความอร่อย นุ่มละมุนกำลังดี เมล็ดข้าวขาวสวย เหมาะสำหรับทำข้าวผัดเมนูต่างๆ หรือจะทานคู่กับเมนูไหนก็อร่อย");
         $(".quiz-result-btn").attr('href', '/products/bjm-jas-old100');
         break;
@@ -289,35 +289,35 @@ $('#next-a, #next-b, #next-c, #next-d').on('click', function() {
       case "y,7,d":
         console.log("เม็ดสวย สุขภาพ");
         $(".result-name").text("ข้าวกล้องสามสี ตรา ดอกบัว");
-        $(".product-img-object.quiz-img").replaceWith('<img class="product-img-object quiz-img" src="https://uploads-ssl.webflow.com/629700b0455924afb7acade3/6358e7253ea08a7dca457d58_placeholder.png"></img>');
+        $(".product-img-object.quiz-img").replaceWith('<img class="product-img-object quiz-img" src="https://uploads-ssl.webflow.com/629732c7c0e1401011449adc/63730ad218c742ceac33230f_LTS_HT3-p-800.webp"></img>');
         $(".result-description").text("ข้าวกล้องสามสี เป็นข้าวที่อุดมไปด้วยวิตามิน B1, B2 แคลเซียม และธาตุเหล็ก ป้องกันโรคเหน็บชา รวมทั้งมีเส้นใยอาหารมากให้คุณค่าทางโภชนาการสูง มีสารต่อต้านอนุมูลอิสระ เหมาะสำหรับคนที่รักสุขภาพ");
         $(".quiz-result-btn").attr('href', '/products/lts-hty-healthy');
         break;
       case "y,8,a":
         console.log("หอมพิเศษ พรีเมี่ยม");
         $(".result-name").text("ข้าวหอมมะลิใหม่ 100% ตรา ดอกบัวบาน");
-        $(".product-img-object.quiz-img").replaceWith('<img class="product-img-object quiz-img" src="https://uploads-ssl.webflow.com/629700b0455924afb7acade3/6358e7253ea08a7dca457d58_placeholder.png"></img>');
+        $(".product-img-object.quiz-img").replaceWith('<img class="product-img-object quiz-img" src="https://uploads-ssl.webflow.com/629732c7c0e1401011449adc/637315c4534dd28696206458_BLT_JS100-p-2000.webp"></img>');
         $(".result-description").text("ข้าวหอมมะลิใหม่ต้นฤดู 100% ที่ผ่านการคัดสรรข้าวเปลือกจากแหล่งเพาะปลูกข้าวหอมมะลิชั้นเลิศของประเทศไทย มีการจัดเก็บภายใต้อุณหภูมิที่ต่ำกว่า 15 องศาเซลเซียส เพื่อคงคุณภาพข้าวให้มีความสดใหม่ เมล็ดข้าวสวยใส กลิ่นหอมตามธรรมชาติ ทำให้ข้าวใหม่ต้นฤดูของเรา เหนียว นุ่ม มียาง เหมาะกับผู้ที่ชอบทานข้าวหอมมะลิที่มีความหอม นุ่ม เหนียว หรือทำเป็นข้าวต้มก็อร่อย");
         $(".quiz-result-btn").attr('href', '/products/blt-jas-new100');
         break;
       case "y,8,b":
         console.log("หอมพิเศษ คุณภาพ+ราคา");
         $(".result-name").text("ข้าวหอมมะลิ ตรา ดอกดาวเรืองส้ม");
-        $(".product-img-object.quiz-img").replaceWith('<img class="product-img-object quiz-img" src="https://uploads-ssl.webflow.com/629700b0455924afb7acade3/6358e7253ea08a7dca457d58_placeholder.png"></img>');
+        $(".product-img-object.quiz-img").replaceWith('<img class="product-img-object quiz-img" src="https://uploads-ssl.webflow.com/629732c7c0e1401011449adc/6373083526e7dcba76a2c351_CDO_JS100-p-2000.webp"></img>');
         $(".result-description").text("ข้าวหอมมะลิ อีกหนึ่งแบรนด์ของตงฮั้ว ที่คู่ครัวคนไทยมายาวนาน จึงมั่นใจได้ในคุณภาพของข้าวหอมมะลิแท้ 100% ที่มีราคาคุ้มค่า รสชาติอร่อย หอมนุ่มถูกใจ เหมาะสำหรับร้านอาหารที่ต้องการข้าวหอมมะลิแท้คุณภาพดี ในราคาประหยัด หรือเหมาะกับร้านอาหารทุกๆ ประเภท");
         $(".quiz-result-btn").attr('href', '/products/cdo-jas-hommali');
         break;
       case "y,8,c":
         console.log("หอมพิเศษ ประหยัด");
         $(".result-name").text("ข้าวหอมสุรินทร์ ตรา ดอกบัว รุ่นลายไทย");
-        $(".product-img-object.quiz-img").replaceWith('<img class="product-img-object quiz-img" src="https://uploads-ssl.webflow.com/629732c7c0e1401011449adc/6358aa1b0f798363d50da770_HomSurin.webp"></img>');
+        $(".product-img-object.quiz-img").replaceWith('<img class="product-img-object quiz-img" src="https://uploads-ssl.webflow.com/629732c7c0e1401011449adc/63d8d20d7de2b7bdcfd2ed72_HomSurin.png"></img>');
         $(".result-description").text("ข้าวหอมสุรินทร์ ผ่านการคัดสรรคุณภาพอย่างใส่ใจ เมื่อนำไปหุงเป็นข้าวสวยจะมีความนุ่ม อร่อย น่าทาน เหมาะสำหรับผู้บริโภคข้าวหอมที่ราคาย่อมเยาว์และร้านอาหารทั่วไป");
         $(".quiz-result-btn").attr('href', '/products/lth-aro-surin');
         break;
       case "y,8,d":
         console.log("หอมพิเศษ สุขภาพ");
         $(".result-name").text("ข้าวหอมมันปู ตรา ดอกบัวบาน");
-        $(".product-img-object.quiz-img").replaceWith('<img class="product-img-object quiz-img" src="https://uploads-ssl.webflow.com/629700b0455924afb7acade3/6358e7253ea08a7dca457d58_placeholder.png"></img>');
+        $(".product-img-object.quiz-img").replaceWith('<img class="product-img-object quiz-img" src="https://uploads-ssl.webflow.com/629732c7c0e1401011449adc/63d8c29e808af483432d0be2_BLT_HT-Munpoo-p-800.png"></img>');
         $(".result-description").text("ข้าวหอมมันปู เป็นกล้องหอมมะลิแดงผสมกับข้าวหอมมะลิ100% เป็นข้าวที่อุดมไปด้วยวิตามิน B1, B2 แคลเซียม และธาตุเหล็ก รวมทั้งมีเส้นใยอาหารมากให้คุณค่าทางโภชนาการสูง มีสารต่อต้านอนุมูลอิสระ เหมาะสำหรับคนที่รักสุขภาพ เมื่อหุงสุกจะมีสีสันสวยงามน่ารับประทาน เมื่อทานข้าวจะสัมผัสถึงเนื้อข้าวทั้งสองชนิดที่ผสมกันอย่างลงตัว");
         $(".quiz-result-btn").attr('href', '/products/blt-hty-hommunpu');
         break;
