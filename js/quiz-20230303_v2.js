@@ -169,7 +169,7 @@ $('#next-a, #next-b, #next-c, #next-d').on('click', function() {
         break;
       case "x,3,c":
         console.log("ข้าวอบสับปะรด ประหยัด");
-        $(".result-name").text("ข้าวขาวตาแห้ง 100% ตราดอกบัว");
+        $(".result-name").text("ข้าวขาวตาแห้ง 100% ตรา ดอกบัว");
         $(".product-img-object.quiz-img").replaceWith('<img class="product-img-object quiz-img" src="https://uploads-ssl.webflow.com/629732c7c0e1401011449adc/63589ca381ac6f78e6ab3fe8_BuaDang.webp"></img>');
         $(".result-description").text("ข้าวขาวตาแห้ง เป็นข้าวขาวพันธุ์ดีจากแหล่งเพาะปลูกในเขตภาคตะวันออกเฉียงเหนือโดยเฉพาะจังหวัดนครราชสีมา เป็นข้าวนาปี คือ ปลูกได้เพียงปีละครั้งเท่านั้น มีคุณลักษณะ ขาว หุงขึ้นหม้อ เม็ดร่วน แต่ไม่แข็งกระด้าง เหมาะสำหรับผู้ที่ชอบบริโภค ข้าวที่หุงขึ้นหม้อ คุ้มค่า ราคาประหยัด เหมาะสำหรับร้านอาหารทั่วไปและร้านขายข้าวนึ่ง");
         $(".quiz-result-btn").attr('href', '/products/lts-wht-taheang100');
