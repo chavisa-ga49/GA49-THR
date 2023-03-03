@@ -163,7 +163,7 @@ $('#next-a, #next-b, #next-c, #next-d').on('click', function() {
       case "x,3,b":
         console.log("ข้าวอบสับปะรด คุณภาพ+ราคา");
         $(".result-name").text("ข้าวหอมมะลิ ตรา ดอกดาวเรืองส้ม");
-        $(".product-img-object.quiz-img").replaceWith('<img class="product-img-object quiz-img" src=https://uploads-ssl.webflow.com/629732c7c0e1401011449adc/6373083526e7dcba76a2c351_CDO_JS100.webp"></img>');
+        $(".product-img-object.quiz-img").replaceWith('<img class="product-img-object quiz-img" src="https://uploads-ssl.webflow.com/629732c7c0e1401011449adc/6373083526e7dcba76a2c351_CDO_JS100.webp"></img>');
         $(".result-description").text("ข้าวหอมมะลิ อีกหนึ่งแบรนด์ของตงฮั้ว ที่คู่ครัวคนไทยมายาวนาน จึงมั่นใจได้ในคุณภาพของข้าวหอมมะลิแท้ 100% ที่มีราคาคุ้มค่า รสชาติอร่อย หอมนุ่มถูกใจ เหมาะสำหรับร้านอาหารที่ต้องการข้าวหอมมะลิแท้คุณภาพดี ในราคาประหยัด หรือเหมาะกับร้านอาหารทุกๆ ประเภท");
         $(".quiz-result-btn").attr('href', '/products/cdo-jas-hommali');
         break;
