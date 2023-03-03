@@ -121,7 +121,7 @@ $('#next-a, #next-b, #next-c, #next-d').on('click', function() {
       case "x,1,d":
         console.log("ข้าวมันไก่ สุขภาพ");
         $(".result-name").text("ข้าวหอมมันปู ตรา ดอกบัวบาน");
-        $(".product-img-object.quiz-img").replaceWith('<img class="product-img-object quiz-img" src="https://uploads-ssl.webflow.com/629732c7c0e1401011449adc/63d8c29e808af483432d0be2_BLT_HT-Munpoo-p-800.png"></img>');
+        $(".product-img-object.quiz-img").replaceWith('<img class="product-img-object quiz-img" src="https://uploads-ssl.webflow.com/629732c7c0e1401011449adc/6401c74387c85e46acef1942_BLT_HT-Munpoo.webp"></img>');
         $(".result-description").text("อุดมไปด้วยวิตามิน B1, B2 แคลเซียม และธาตุเหล็ก รวมทั้งมีเส้นใยอาหารมากให้คุณค่าทางโภชนาการสูง มีสารต่อต้านอนุมูลอิสระ เมื่อหุงสุกจะมีสีสันสวยงามน่ารับประทาน เมื่อทานข้าวจะสัมผัสถึงเนื้อข้าวทั้งสองชนิดที่ผสมกันอย่างลงตัว");
         $(".quiz-result-btn").attr('href', '/products/blt-hty-hommunpu');
         break;
@@ -149,21 +149,21 @@ $('#next-a, #next-b, #next-c, #next-d').on('click', function() {
       case "x,2,d":
         console.log("โจ๊ก สุขภาพ");
         $(".result-name").text("ข้าวกล้องหอมมะลิแดง 100% ตรา ดอกบัวบาน");
-        $(".product-img-object.quiz-img").replaceWith('<img class="product-img-object quiz-img" src="https://uploads-ssl.webflow.com/629732c7c0e1401011449adc/63d8c2cdce3d181af03a0166_BLT_JHT-Red-p-800.png"></img>');
+        $(".product-img-object.quiz-img").replaceWith('<img class="product-img-object quiz-img" src="https://uploads-ssl.webflow.com/629732c7c0e1401011449adc/6401c61243987335e545710d_BLT_HT_Red.webp"></img>');
         $(".result-description").text("อุดมไปด้วยวิตามิน B1, B2 แคลเซียม และธาตุเหล็ก รวมทั้งมีเส้นใยอาหารมากให้คุณค่าทางโภชนาการสูง มีสารต่อต้านอนุมูลอิสระ เหมาะสำหรับ คนที่รักสุขภาพ");
         $(".quiz-result-btn").attr('href', '/products/blt-hty-red100');
         break;
       case "x,3,a":
         console.log("ข้าวอบสับปะรด พรีเมี่ยม");
         $(".result-name").text("ข้าวหอมมะลิ 100% ตรา ดอกบัวบาน");
-        $(".product-img-object.quiz-img").replaceWith('<img class="product-img-object quiz-img" src="https://uploads-ssl.webflow.com/629732c7c0e1401011449adc/6376f578b7a79613e43ed0dd_BLT_JS100_45.webp"></img>');
+        $(".product-img-object.quiz-img").replaceWith('<img class="product-img-object quiz-img" src="https://uploads-ssl.webflow.com/629732c7c0e1401011449adc/6401c648439873a9a5457391_BLT_JS100_45.webp"></img>');
         $(".result-description").text("ข้าวจากแหล่งเพาะปลูกข้าวหอมมะลิที่ดีที่สุด มีกลิ่นหอมอ่อนๆ คล้ายกลิ่นของใบเตย เมื่อนำไปหุงจะได้เมล็ดข้าวสวย มีความหอม นุ่ม เมล็ดข้าวไม่เกาะตัวกัน");
         $(".quiz-result-btn").attr('href', '/products/blt-jas-old100');
         break;
       case "x,3,b":
         console.log("ข้าวอบสับปะรด คุณภาพ+ราคา");
         $(".result-name").text("ข้าวหอมมะลิ ตรา ดอกดาวเรืองส้ม");
-        $(".product-img-object.quiz-img").replaceWith('<img class="product-img-object quiz-img" src="https://uploads-ssl.webflow.com/629732c7c0e1401011449adc/6373083526e7dcba76a2c351_CDO_JS100.webp"></img>');
+        $(".product-img-object.quiz-img").replaceWith('<img class="product-img-object quiz-img" src="https://uploads-ssl.webflow.com/629732c7c0e1401011449adc/6401c689936d322f9c9bd3e5_CDO_JS100.webp"></img>');
         $(".result-description").text("ราคาคุ้มค่า รสชาติอร่อย หอมนุ่มถูกใจ เหมาะสำหรับร้านอาหารที่ต้องการข้าวหอมมะลิแท้คุณภาพดี ในราคาประหยัด หรือเหมาะกับร้านอาหารทุกๆ ประเภท");
         $(".quiz-result-btn").attr('href', '/products/cdo-jas-hommali');
         break;
@@ -177,7 +177,7 @@ $('#next-a, #next-b, #next-c, #next-d').on('click', function() {
       case "x,3,d":
         console.log("ข้าวอบสับปะรด สุขภาพ");
         $(".result-name").text("ข้าวหอมมันปู ตรา ดอกบัวบาน");
-        $(".product-img-object.quiz-img").replaceWith('<img class="product-img-object quiz-img" src="https://uploads-ssl.webflow.com/629732c7c0e1401011449adc/63d8c29e808af483432d0be2_BLT_HT-Munpoo.png"></img>');
+        $(".product-img-object.quiz-img").replaceWith('<img class="product-img-object quiz-img" src="https://uploads-ssl.webflow.com/629732c7c0e1401011449adc/6401c74387c85e46acef1942_BLT_HT-Munpoo.webp"></img>');
         $(".result-description").text("อุดมไปด้วยวิตามิน B1, B2 แคลเซียม และธาตุเหล็ก รวมทั้งมีเส้นใยอาหารมากให้คุณค่าทางโภชนาการสูง มีสารต่อต้านอนุมูลอิสระ เมื่อหุงสุกจะมีสีสันสวยงามน่ารับประทาน เมื่อทานข้าวจะสัมผัสถึงเนื้อข้าวทั้งสองชนิดที่ผสมกันอย่างลงตัว");
         $(".quiz-result-btn").attr('href', '/products/blt-hty-hommunpu');
         break;
@@ -204,8 +204,8 @@ $('#next-a, #next-b, #next-c, #next-d').on('click', function() {
         break;
       case "x,4,d":
         console.log("ข้าวผัดปู สุขภาพ");
-        $(".result-name").text("ข้าวกล้องหอมมะลิ 100% ตราดอกบัวบาน");
-        $(".product-img-object.quiz-img").replaceWith('<img class="product-img-object quiz-img" src="https://uploads-ssl.webflow.com/629732c7c0e1401011449adc/63d8c2b3ce3d186e283a0105_BLT_HT-Brown.png"></img>');
+        $(".result-name").text("ข้าวกล้องหอมมะลิ 100% ตรา ดอกบัวบาน");
+        $(".product-img-object.quiz-img").replaceWith('<img class="product-img-object quiz-img" src="https://uploads-ssl.webflow.com/629732c7c0e1401011449adc/6401c724a043692fd1199a6a_BLT_HT-Brown.webp"></img>');
         $(".result-description").text("อุดมไปด้วยวิตามิน B1, B2 แคลเซียม และธาตุเหล็ก รวมทั้งมีเส้นใยอาหารมากให้คุณค่าทางโภชนาการสูง มีสารต่อต้านอนุมูลอิสระ เหมาะสำหรับคนที่รักสุขภาพ");
         $(".quiz-result-btn").attr('href', '/products/blt-hty-brownjamine100');
         break;
@@ -226,14 +226,14 @@ $('#next-a, #next-b, #next-c, #next-d').on('click', function() {
       case "y,5,c":
         console.log("หอมนุ่ม ประหยัด");
         $(".result-name").text("ข้าวหอมคัดพิเศษ ตรา ดอกดาวเรืองเขียว");
-        $(".product-img-object.quiz-img").replaceWith('<img class="product-img-object quiz-img" src="https://uploads-ssl.webflow.com/629732c7c0e1401011449adc/63c90cfadc0c34a86796b06e_CDG_AR.png"></img>');
+        $(".product-img-object.quiz-img").replaceWith('<img class="product-img-object quiz-img" src="https://uploads-ssl.webflow.com/629732c7c0e1401011449adc/6401c6a1879d246856241bb2_CDG_AR.webp"></img>');
         $(".result-description").text("ผ่านการคัดสรรพิเศษ เมื่อนำไปหุงจะได้เมล็ดข้าวสวยที่มีความหอมนุ่ม ราคาประหยัด เหมาะสำหรับผู้บริโภคข้าวหอมที่ต้องการราคาประหยัด หรือร้านอาหารตามสั่ง");
         $(".quiz-result-btn").attr('href', '/products/cdg-aro-special');
         break;
       case "y,5,d":
         console.log("หอมนุ่ม สุขภาพ");
         $(".result-name").text("ข้าวกล้องมะลิแดง 100% ตรา ดอกบัว");
-        $(".product-img-object.quiz-img").replaceWith('<img class="product-img-object quiz-img" src="https://uploads-ssl.webflow.com/629732c7c0e1401011449adc/63d8c2cdce3d181af03a0166_BLT_JHT-Red-p-800.png"></img>');
+        $(".product-img-object.quiz-img").replaceWith('<img class="product-img-object quiz-img" src="https://uploads-ssl.webflow.com/629732c7c0e1401011449adc/6401c61243987335e545710d_BLT_HT_Red.webp"></img>');
         $(".result-description").text("อุดมธาตุเหล็กและทองแดงที่ช่วยบำรุงเลือด มีวิตามิน B1, B2 บำรุงสมอง บรรเทาอาการอ่อนเพลีย มีแคโรทิน ช่วยบำรุงสายตา");
         $(".quiz-result-btn").attr('href', '/products/lts-hty-hommalired');
         break;
@@ -261,7 +261,7 @@ $('#next-a, #next-b, #next-c, #next-d').on('click', function() {
       case "y,6,d":
         console.log("ร่วนๆ สุขภาพ");
         $(".result-name").text("ข้าวหอมมันปู ตรา ดอกบัวบาน");
-        $(".product-img-object.quiz-img").replaceWith('<img class="product-img-object quiz-img" src="https://uploads-ssl.webflow.com/629732c7c0e1401011449adc/63d8c29e808af483432d0be2_BLT_HT-Munpoo-p-800.png"></img>');
+        $(".product-img-object.quiz-img").replaceWith('<img class="product-img-object quiz-img" src="https://uploads-ssl.webflow.com/629732c7c0e1401011449adc/6401c74387c85e46acef1942_BLT_HT-Munpoo.webp"></img>');
         $(".result-description").text("อุดมไปด้วยวิตามิน B1, B2 แคลเซียม และธาตุเหล็ก รวมทั้งมีเส้นใยอาหารมากให้คุณค่าทางโภชนาการสูง มีสารต่อต้านอนุมูลอิสระ เมื่อหุงสุกจะมีสีสันสวยงามน่ารับประทาน เมื่อทานข้าวจะสัมผัสถึงเนื้อข้าวทั้งสองชนิดที่ผสมกันอย่างลงตัว");
         $(".quiz-result-btn").attr('href', '/products/blt-hty-hommunpu');
         break;
@@ -282,7 +282,7 @@ $('#next-a, #next-b, #next-c, #next-d').on('click', function() {
       case "y,7,c":
         console.log("เม็ดสวย ประหยัด");
         $(".result-name").text("ข้าวหอม 100% ตรา ดอกบัว รุ่นลายไทย");
-        $(".product-img-object.quiz-img").replaceWith('<img class="product-img-object quiz-img" src="https://uploads-ssl.webflow.com/629732c7c0e1401011449adc/6358e230b69c453ea227cee3_Fragrant_Rice.webp"></img>');
+        $(".product-img-object.quiz-img").replaceWith('<img class="product-img-object quiz-img" src="https://uploads-ssl.webflow.com/629732c7c0e1401011449adc/6401cdfc879d2464f324d432_LTH_AR-100.webp"></img>');
         $(".result-description").text("มีความนุ่มและมีกลิ่นหอมคล้ายข้าวหอมมะลิ เป็นทางเลือกสำหรับคนที่ชอบการรับประทานข้าวหอมที่มีความนุ่มหอมในราคาคุ้มค่า");
         $(".quiz-result-btn").attr('href', '/products/lth-aro-100');
         break;
@@ -296,14 +296,14 @@ $('#next-a, #next-b, #next-c, #next-d').on('click', function() {
       case "y,8,a":
         console.log("หอมพิเศษ พรีเมี่ยม");
         $(".result-name").text("ข้าวหอมมะลิใหม่ 100% ตรา ดอกบัวบาน");
-        $(".product-img-object.quiz-img").replaceWith('<img class="product-img-object quiz-img" src="https://uploads-ssl.webflow.com/629732c7c0e1401011449adc/637315c4534dd28696206458_BLT_JS100-p-2000.webp"></img>');
+        $(".product-img-object.quiz-img").replaceWith('<img class="product-img-object quiz-img" src="https://uploads-ssl.webflow.com/629732c7c0e1401011449adc/6401c66496905f79e4a7c64b_BLT_JS100.webp"></img>');
         $(".result-description").text("จัดเก็บภายใต้อุณหภูมิที่ต่ำกว่า 15°C เพื่อคงความสดใหม่ เมล็ดข้าวสวยใส มีกลิ่นหอมธรรมชาติ เหมาะกับผู้ที่ชอบทานข้าวหอมมะลิที่มีความหอม นุ่ม เหนียว");
         $(".quiz-result-btn").attr('href', '/products/blt-jas-new100');
         break;
       case "y,8,b":
         console.log("หอมพิเศษ คุณภาพ+ราคา");
         $(".result-name").text("ข้าวหอมมะลิ ตรา ดอกดาวเรืองส้ม");
-        $(".product-img-object.quiz-img").replaceWith('<img class="product-img-object quiz-img" src="https://uploads-ssl.webflow.com/629732c7c0e1401011449adc/6373083526e7dcba76a2c351_CDO_JS100-p-2000.webp"></img>');
+        $(".product-img-object.quiz-img").replaceWith('<img class="product-img-object quiz-img" src="https://uploads-ssl.webflow.com/629732c7c0e1401011449adc/6401c689936d322f9c9bd3e5_CDO_JS100.webp"></img>');
         $(".result-description").text("ราคาคุ้มค่า รสชาติอร่อย หอมนุ่มถูกใจ เหมาะสำหรับร้านอาหารที่ต้องการข้าวหอมมะลิแท้คุณภาพดี ในราคาประหยัด หรือเหมาะกับร้านอาหารทุกๆ ประเภท");
         $(".quiz-result-btn").attr('href', '/products/cdo-jas-hommali');
         break;
@@ -317,7 +317,7 @@ $('#next-a, #next-b, #next-c, #next-d').on('click', function() {
       case "y,8,d":
         console.log("หอมพิเศษ สุขภาพ");
         $(".result-name").text("ข้าวหอมมันปู ตรา ดอกบัวบาน");
-        $(".product-img-object.quiz-img").replaceWith('<img class="product-img-object quiz-img" src="https://uploads-ssl.webflow.com/629732c7c0e1401011449adc/63d8c29e808af483432d0be2_BLT_HT-Munpoo-p-800.png"></img>');
+        $(".product-img-object.quiz-img").replaceWith('<img class="product-img-object quiz-img" src="https://uploads-ssl.webflow.com/629732c7c0e1401011449adc/6401c74387c85e46acef1942_BLT_HT-Munpoo.webp"></img>');
         $(".result-description").text("อุดมไปด้วยวิตามิน B1, B2 แคลเซียม และธาตุเหล็ก รวมทั้งมีเส้นใยอาหารมากให้คุณค่าทางโภชนาการสูง มีสารต่อต้านอนุมูลอิสระ เมื่อหุงสุกจะมีสีสันสวยงามน่ารับประทาน เมื่อทานข้าวจะสัมผัสถึงเนื้อข้าวทั้งสองชนิดที่ผสมกันอย่างลงตัว");
         $(".quiz-result-btn").attr('href', '/products/blt-hty-hommunpu');
         break;
