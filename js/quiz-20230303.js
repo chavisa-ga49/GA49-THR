@@ -154,60 +154,60 @@ $('#next-a, #next-b, #next-c, #next-d').on('click', function() {
         $(".quiz-result-btn").attr('href', '/products/blt-hty-red100');
         break;
       case "x,3,a":
-        console.log("ข้าวต้ม พรีเมี่ยม");
-        $(".result-name").text("ข้าวหอมมะลิกลางปี 100% ตรา ดอกบัวบาน");
-        $(".product-img-object.quiz-img").replaceWith('<img class="product-img-object quiz-img" src="https://uploads-ssl.webflow.com/629732c7c0e1401011449adc/6358aa90a9040f78e21767b0_WhiteMali_BuaBan.webp"></img>');
-        $(".result-description").text("ข้าวหอมมะลิแท้ 100% มีลักษณะเรียวยาว เมื่อนำไปสีจะได้ข้าวสารเมล็ดเรียว เมื่อนำไปหุงจะได้เมล็ดข้าวสวยที่มีความเหนียวนุ่มอร่อยลงตัวและมีกลิ่นหอมตามธรรมชาติ เหมาะสำหรับนำไปทำข้าวต้ม และผู้ที่ชอบทานข้าวหอมมะลิเหนียวนุ่ม กำลังดี หรือ โรงแรมร้านอาหารระดับพรีเมี่ยม");
-        $(".quiz-result-btn").attr('href', '/products/blt-jas-midyear100');
+        console.log("ข้าวอบสับปะรด พรีเมี่ยม");
+        $(".result-name").text("ข้าวหอมมะลิ 100% ตรา ดอกบัวบาน");
+        $(".product-img-object.quiz-img").replaceWith('<img class="product-img-object quiz-img" src="https://uploads-ssl.webflow.com/629732c7c0e1401011449adc/6376f578b7a79613e43ed0dd_BLT_JS100_45.webp"></img>');
+        $(".result-description").text("ข้าวหอมมะลิเก่า 100% ที่คัดสรรจากข้าวเปลือกพันธุ์ 105 แท้ จากแหล่งเพาะปลูกข้าวหอมมะลิที่ดีที่สุด มีลักษณะเม็ดเรียวยาว สวย ขาว มีกลิ่นหอมอ่อนๆ คล้ายกลิ่นของใบเตย เมื่อนำไปหุงจะได้เมล็ดข้าวสวย มีความหอม นุ่ม เมล็ดข้าวไม่เกาะตัวกัน เหมาะสำหรับทานกับกับข้าวจานโปรด และเหมาะกับร้านอาหาร");
+        $(".quiz-result-btn").attr('href', '/products/blt-jas-old100');
         break;
       case "x,3,b":
-        console.log("ข้าวต้ม คุณภาพ+ราคา");
-        $(".result-name").text("ข้าวหอมมะลิทอง ตรา ดอกบัว รุ่นลายไทย");
-        $(".product-img-object.quiz-img").replaceWith('<img class="product-img-object quiz-img" src="https://uploads-ssl.webflow.com/629732c7c0e1401011449adc/6358aa54490d1b2078cb16ca_ThaiJasmineRiceGold.webp"></img>');
-        $(".result-description").text("ข้าวหอมมะลิ ที่ผ่านการคัดสรรพิเศษอย่างใส่ใจ เนื้อสัมผัสมีความหอม นุ่ม ชวนรับประทาน ทานอร่อย เหมาะสำหรับผู้ที่ชอบทานข้าวหอมมะลิ หอม นุ่ม กำลังดี เหมาะสำหรับนำไปทำข้าวต้ม และร้านอาหารตามสั่ง");
-        $(".quiz-result-btn").attr('href', '/products/lth-jas-gold');
+        console.log("ข้าวอบสับปะรด คุณภาพ+ราคา");
+        $(".result-name").text("ข้าวหอมมะลิ ตรา ดอกดาวเรืองส้ม");
+        $(".product-img-object.quiz-img").replaceWith('<img class="product-img-object quiz-img" src=https://uploads-ssl.webflow.com/629732c7c0e1401011449adc/6373083526e7dcba76a2c351_CDO_JS100.webp"></img>');
+        $(".result-description").text("ข้าวหอมมะลิ อีกหนึ่งแบรนด์ของตงฮั้ว ที่คู่ครัวคนไทยมายาวนาน จึงมั่นใจได้ในคุณภาพของข้าวหอมมะลิแท้ 100% ที่มีราคาคุ้มค่า รสชาติอร่อย หอมนุ่มถูกใจ เหมาะสำหรับร้านอาหารที่ต้องการข้าวหอมมะลิแท้คุณภาพดี ในราคาประหยัด หรือเหมาะกับร้านอาหารทุกๆ ประเภท");
+        $(".quiz-result-btn").attr('href', '/products/cdo-jas-hommali');
         break;
       case "x,3,c":
-        console.log("ข้าวต้ม ประหยัด");
-        $(".result-name").text("ข้าวหอม 100% ตรา ดอกบัว รุ่นลายไทย");
-        $(".product-img-object.quiz-img").replaceWith('<img class="product-img-object quiz-img" src="https://uploads-ssl.webflow.com/629732c7c0e1401011449adc/6358e230b69c453ea227cee3_Fragrant_Rice.webp"></img>');
-        $(".result-description").text("ข้าวหอม 100% มีความนุ่มและมีกลิ่นหอมคล้ายข้าวหอมมะลิ คัดสรรคุณภาพเป็นพิเศษในพื้นที่ปลูกที่คุณภาพดี เป็นทางเลือกสำหรับคนที่ชอบการรับประทานข้าวหอมที่มีความนุ่มหอมในราคาคุ้มค่า");
-        $(".quiz-result-btn").attr('href', '/products/lth-aro-100');
+        console.log("ข้าวอบสับปะรด ประหยัด");
+        $(".result-name").text("ข้าวขาวตาแห้ง 100% ตราดอกบัว");
+        $(".product-img-object.quiz-img").replaceWith('<img class="product-img-object quiz-img" src="https://uploads-ssl.webflow.com/629732c7c0e1401011449adc/63589ca381ac6f78e6ab3fe8_BuaDang.webp"></img>');
+        $(".result-description").text("ข้าวขาวตาแห้ง เป็นข้าวขาวพันธุ์ดีจากแหล่งเพาะปลูกในเขตภาคตะวันออกเฉียงเหนือโดยเฉพาะจังหวัดนครราชสีมา เป็นข้าวนาปี คือ ปลูกได้เพียงปีละครั้งเท่านั้น มีคุณลักษณะ ขาว หุงขึ้นหม้อ เม็ดร่วน แต่ไม่แข็งกระด้าง เหมาะสำหรับผู้ที่ชอบบริโภค ข้าวที่หุงขึ้นหม้อ คุ้มค่า ราคาประหยัด เหมาะสำหรับร้านอาหารทั่วไปและร้านขายข้าวนึ่ง");
+        $(".quiz-result-btn").attr('href', '/products/lts-wht-taheang100');
         break;
       case "x,3,d":
-        console.log("ข้าวต้ม สุขภาพ");
-        $(".result-name").text("ข้าวกล้องหอมมะลิ 100% ตรา ดอกบัวบาน");
-        $(".product-img-object.quiz-img").replaceWith('<img class="product-img-object quiz-img" src="https://uploads-ssl.webflow.com/629732c7c0e1401011449adc/63d8c2b3ce3d186e283a0105_BLT_HT-Brown-p-800.png"></img>');
-        $(".result-description").text("ข้าวกล้องหอมมะลิ เป็นข้าวที่อุดมไปด้วยวิตามิน B1, B2 แคลเซียม และธาตุเหล็ก รวมทั้งมีเส้นใยอาหารมากให้คุณค่าทางโภชนาการสูง มีสารต่อต้านอนุมูลอิสระ เหมาะสำหรับคนที่รักสุขภาพ");
-        $(".quiz-result-btn").attr('href', '/products/blt-hty-brownjamine100');
+        console.log("ข้าวอบสับปะรด สุขภาพ");
+        $(".result-name").text("ข้าวหอมมันปู ตรา ดอกบัวบาน");
+        $(".product-img-object.quiz-img").replaceWith('<img class="product-img-object quiz-img" src="https://uploads-ssl.webflow.com/629732c7c0e1401011449adc/63d8c29e808af483432d0be2_BLT_HT-Munpoo.png"></img>');
+        $(".result-description").text("ข้าวหอมมันปู เป็นกล้องหอมมะลิแดงผสมกับข้าวหอมมะลิ100% เป็นข้าวที่อุดมไปด้วยวิตามิน B1, B2 แคลเซียม และธาตุเหล็ก รวมทั้งมีเส้นใยอาหารมากให้คุณค่าทางโภชนาการสูง มีสารต่อต้านอนุมูลอิสระ เหมาะสำหรับคนที่รักสุขภาพ เมื่อหุงสุกจะมีสีสันสวยงามน่ารับประทาน เมื่อทานข้าวจะสัมผัสถึงเนื้อข้าวทั้งสองชนิดที่ผสมกันอย่างลงตัว");
+        $(".quiz-result-btn").attr('href', '/products/blt-hty-hommunpu');
         break;
       case "x,4,a":
-        console.log("ข้าวหมูแดง พรีเมี่ยม");
-        $(".result-name").text("ข้าวหอมผสม ตรา บัวเขียว");
-        $(".product-img-object.quiz-img").replaceWith('<img class="product-img-object quiz-img" src="https://uploads-ssl.webflow.com/629732c7c0e1401011449adc/6358a9d908dd80d5ecd9c10b_Green_Lotus.webp"></img>');
-        $(".result-description").text("ข้าวผสมระหว่างข้าวขาวนาปีกับข้าวหอม ข้าวขาวนาปีมีคุณลักษณะหุงขึ้นหม้อ แต่ไม่แข็งกระด้าง ผสมกับข้าวหอม ที่ให้ความหอมนุ่ม ในสัดส่วนที่พอเหมาะลงตัวในการรับประทานเหมาะสำหรับผู้ที่ชอบบริโภค ข้าวที่หุงขึ้นหม้อ นุ่ม ไม่แข็งกระด้าง ราคาคุ้มค่า เหมาะกับร้านข้าวแกงและร้านอาหารทั่วไป");
-        $(".quiz-result-btn").attr('href', '/products/ltg-aro-mixed');
+        console.log("ข้าวผัดปู พรีเมี่ยม");
+        $(".result-name").text("ข้าวหอมมะลิทอง ตรา ดอกบัว รุ่นลายไทย");
+        $(".product-img-object.quiz-img").replaceWith('<img class="product-img-object quiz-img" src="https://uploads-ssl.webflow.com/629732c7c0e1401011449adc/6358aa54490d1b2078cb16ca_ThaiJasmineRiceGold.webp"></img>');
+        $(".result-description").text("ข้าวหอมมะลิ ที่ผ่านการคัดสรรพิเศษอย่างใส่ใจ เนื้อสัมผัสมีความหอม นุ่ม ชวนรับประทาน ทานอร่อย เหมาะสำหรับผู้ที่ชอบทานข้าวหอมมะลิ หอม นุ่ม กำลังดี หรือเหมาะกับร้านอาหารตามสั่ง");
+        $(".quiz-result-btn").attr('href', '/products/lth-jas-gold');
         break;
       case "x,4,b":
-        console.log("ข้าวหมูแดง คุณภาพ+ราคา");
-        $(".result-name").text("ข้าวขาวตาแห้ง 100% ตรา ดอกบัว รุ่นลายไทย");
-        $(".product-img-object.quiz-img").replaceWith('<img class="product-img-object quiz-img" src="https://uploads-ssl.webflow.com/629732c7c0e1401011449adc/63589cceb3c62b14dacc54bb_White_TaHang.webp"></img>');
-        $(".result-description").text("ข้าวขาวตาแห้ง เป็นข้าวนาปี ปลูกได้เพียงปีละครั้งเท่านั้น มีคุณลักษณะ ขาว หุงขึ้นหม้อ เม็ดร่วน แต่ไม่แข็งกระด้าง เหมาะสำหรับผู้ที่ชอบบริโภค ข้าวที่หุงขึ้นหม้อ คุ้มค่า ราคาประหยัด");
-        $(".quiz-result-btn").attr('href', '/products/lth-wht-taheang100');
+        console.log("ข้าวผัดปู คุณภาพ+ราคา");
+        $(".result-name").text("ข้าวหอมสุรินทร์ ตรา ดอกบัว รุ่นลายไทย");
+        $(".product-img-object.quiz-img").replaceWith('<img class="product-img-object quiz-img" src="https://uploads-ssl.webflow.com/629732c7c0e1401011449adc/63d8d20d7de2b7bdcfd2ed72_HomSurin.png"></img>');
+        $(".result-description").text("ข้าวหอมสุรินทร์ ผ่านการคัดสรรคุณภาพอย่างใส่ใจ เมื่อนำไปหุงเป็นข้าวสวยจะมีความนุ่ม อร่อย น่าทาน เหมาะสำหรับผู้บริโภคข้าวหอมที่ราคาย่อมเยาว์และร้านอาหารทั่วไป");
+        $(".quiz-result-btn").attr('href', '/products/lth-aro-surin');
         break;
       case "x,4,c":
-        console.log("ข้าวหมูแดง ประหยัด");
-        $(".result-name").text("ข้าวขาวชัยนาท 100% ตรา ดอกบัวบาน");
-        $(".product-img-object.quiz-img").replaceWith('<img class="product-img-object quiz-img" src="https://uploads-ssl.webflow.com/629732c7c0e1401011449adc/63589c9081ac6fa53fab3fa0_WhiteChaiNat.webp"></img>');
-        $(".result-description").text("ข้าวขาวชัยนาท หุงขึ้นหม้อ เม็ดสวย ร่วน ไม่เหนียวติดกัน เหมาะสำหรับร้านข้าวนึ่งอาหารตามสั่ง หรือผู้ที่ชอบบริโภคข้าวที่หุงขึ้นหม้อ คุ้มค่า ราคาประหยัด");
-        $(".quiz-result-btn").attr('href', '/products/blt-wht-chainat100');
+        console.log("ข้าวผัดปู ประหยัด");
+        $(".result-name").text("ข้าวขาวตาแห้ง 100% ตรา ดอกบัว รุ่นลายไทย");
+        $(".product-img-object.quiz-img").replaceWith('<img class="product-img-object quiz-img" src="https://uploads-ssl.webflow.com/629732c7c0e1401011449adc/63589cceb3c62b14dacc54bb_White_TaHang.webp"></img>');
+        $(".result-description").text("ข้าวขาวตาแห้ง เป็นข้าวขาวพันธุ์ดีจากแหล่งเพาะปลูกในเขตภาคตะวันออกเฉียงเหนือโดยเฉพาะจังหวัดนครราชสีมา เป็นข้าวนาปี คือ ปลูกได้เพียงปีละครั้งเท่านั้น มีคุณลักษณะ ขาว หุงขึ้นหม้อ เม็ดร่วน แต่ไม่แข็งกระด้าง เหมาะสำหรับผู้ที่ชอบบริโภค ข้าวที่หุงขึ้นหม้อ คุ้มค่า ราคาประหยัด");
+        $(".quiz-result-btn").attr('href', '/products/lth-wht-taheang100');
         break;
       case "x,4,d":
-        console.log("ข้าวหมูแดง สุขภาพ");
-        $(".result-name").text("ข้าวไรซ์เบอร์รี่ ตรา ดอกบัว");
-        $(".product-img-object.quiz-img").replaceWith('<img class="product-img-object quiz-img" src="https://uploads-ssl.webflow.com/629732c7c0e1401011449adc/63730c127746cc1b86b6941f_LTS_HT-riceberry-p-2000.webp"></img>');
-        $(".result-description").text("ข้าวไรซ์เบอร์รี่ มีสารต้านอนุมูลอิสระ ลดอัตราเสี่ยงของโรคที่เกี่ยวกับหลอดเลือดสมอง และหัวใจ มีโอเมก้า 3 ที่ช่วยในการทำงานของระบบประสาท สมองและตับ หากทานเป็นประจำจะลดระดับน้ำตาลในเลือด จึงช่วยลดความเสี่ยงในการเป็นโรคเบาหวาน พร้อมทั้งมีกากใยอาหาร ที่เป็นประโยชน์ต่อระบบการขับถ่าย เหมาะสำหรับคนที่รักสุขภาพ");
-        $(".quiz-result-btn").attr('href', '/products/lts-hty-riceberry');
+        console.log("ข้าวผัดปู สุขภาพ");
+        $(".result-name").text("ข้าวกล้องหอมมะลิ 100% ตราดอกบัวบาน");
+        $(".product-img-object.quiz-img").replaceWith('<img class="product-img-object quiz-img" src="https://uploads-ssl.webflow.com/629732c7c0e1401011449adc/63d8c2b3ce3d186e283a0105_BLT_HT-Brown.png"></img>');
+        $(".result-description").text("ข้าวกล้องหอมมะลิ เป็นข้าวที่อุดมไปด้วยวิตามิน B1, B2 แคลเซียม และธาตุเหล็ก รวมทั้งมีเส้นใยอาหารมากให้คุณค่าทางโภชนาการสูง มีสารต่อต้านอนุมูลอิสระ เหมาะสำหรับคนที่รักสุขภาพ");
+        $(".quiz-result-btn").attr('href', '/products/blt-hty-brownjamine100');
         break;
       case "y,5,a":
         console.log("หอมนุ่ม พรีเมี่ยม");
