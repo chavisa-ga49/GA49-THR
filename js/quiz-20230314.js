@@ -99,7 +99,7 @@ $('#next-a, #next-b, #next-c, #next-d').on('click', function() {
     switch(ansResult) {
       case "x,1,a":
         console.log("ข้าวมันไก่ พรีเมี่ยม");
-        $(".result-name").text("ข้าวหอมมะลิเก่า 100% ตรา ดอกบัวบาน");
+        $(".result-name").text("ข้าวหอมมะลิ 100% ตรา ดอกบัวบาน");
         $(".product-img-object.quiz-img").replaceWith('<img class="product-img-object quiz-img" src="https://uploads-ssl.webflow.com/629732c7c0e1401011449adc/6358aa7aa9040f7bed176735_Mali_BuaBan.webp"></img>');
         $(".result-description").text("หอม นุ่ม เมล็ดข้าวไม่เกาะตัวกัน เหมาะสำหรับทานกับกับข้าวจานโปรด และเหมาะกับร้านอาหาร ข้าวมันไก่");
         $(".quiz-result-btn").attr('href', '/products/blt-jas-old100');        
@@ -256,7 +256,7 @@ $('#next-a, #next-b, #next-c, #next-d').on('click', function() {
         $(".result-name").text("ข้าวขาวเสาไห้ ตรา ดอกบัว รุ่นลายไทย");
         $(".product-img-object.quiz-img").replaceWith('<img class="product-img-object quiz-img" src="https://uploads-ssl.webflow.com/629732c7c0e1401011449adc/63589c67db103e6591f314fb_ThaiWhiteRice.webp"></img>');
         $(".result-description").text("ข้าวขาวพันธุ์เสาไห้ ที่ได้รับการคัดสรรคุณภาพเป็นพิเศษ เมล็ดสวย ร่วน ไม่เหนียวติดกัน เหมาะสำหรับผู้ที่ชอบบริโภค ข้าวที่หุงขึ้นหม้อ คุ้มค่า ราคาประหยัด");
-        $(".quiz-result-btn").attr('href', '/products/khaawth-nmali-traad-kbawbaan');
+        $(".quiz-result-btn").attr('href', '/products/lth-wht-saohai');
         break;
       case "y,6,d":
         console.log("ร่วนๆ สุขภาพ");
@@ -267,7 +267,7 @@ $('#next-a, #next-b, #next-c, #next-d').on('click', function() {
         break;
       case "y,7,a":
         console.log("เม็ดสวย พรีเมี่ยม");
-        $(".result-name").text("ข้าวหอมมะลิเก่า 100% ตรา มะลิฟ้า");
+        $(".result-name").text("ข้าวหอมมะลิ 100% ตรา มะลิฟ้า");
         $(".product-img-object.quiz-img").replaceWith('<img class="product-img-object quiz-img" src="https://uploads-ssl.webflow.com/629732c7c0e1401011449adc/637306aff1bceb9dd348605a_BJM_JS100-p-2000.webp"></img>');
         $(".result-description").text("ข้าวเกรดพรี่เมี่ยม มีกลิ่นหอมตามธรรมชาติ เมื่อลิ้มลองจะได้ความอร่อย นุ่มละมุนกำลังดี เมล็ดข้าวขาวสวย ทานคู่กับเมนูไหนก็อร่อย");
         $(".quiz-result-btn").attr('href', '/products/bjm-jas-old100');
