@@ -100,7 +100,7 @@ $('#next-a, #next-b, #next-c, #next-d').on('click', function() {
       case "x,1,a":
         console.log("ข้าวมันไก่ พรีเมี่ยม");
         $(".result-name").text("ข้าวหอมมะลิ 100% ตรา ดอกบัวบาน");
-        $(".product-img-object.quiz-img").replaceWith('<img class="product-img-object quiz-img" src="https://uploads-ssl.webflow.com/629732c7c0e1401011449adc/6358aa7aa9040f7bed176735_Mali_BuaBan.webp"></img>');
+        $(".product-img-object.quiz-img").replaceWith('<img class="product-img-object quiz-img" src="https://uploads-ssl.webflow.com/629732c7c0e1401011449adc/6411468c8fed60713e9ed9d4_6401c648439873a9a5457391_BLT_JS100_45.webp"></img>');
         $(".result-description").text("หอม นุ่ม เมล็ดข้าวไม่เกาะตัวกัน เหมาะสำหรับทานกับกับข้าวจานโปรด และเหมาะกับร้านอาหาร ข้าวมันไก่");
         $(".quiz-result-btn").attr('href', '/products/blt-jas-old100');        
         break;
